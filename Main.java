@@ -1,91 +1,15 @@
-// Java program to implement
-// a Singly Linked List
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
 
-    Node head; // head of list
-
-    // Linked list Node.
-    // This inner class is made static
-    // so that main() can access it
-    static class Node {
-
-        int data;
-        Node next;
-
-        // Constructor
-        Node(int d)
-        {
-            data = d;
-            next = null;
+        for (int i = 1; i <= 5; i++) {
+            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+            System.out.println("i = " + i);
         }
-    }
-
-    // Method to insert a new node
-    public static Main insert(Main list, int data)
-    {
-        // Create a new node with given data
-        Node new_node = new Node(data);
-
-
-        // If the Linked List is empty,
-        // then make the new node as head
-        if (list.head == null) {
-            list.head = new_node;
-        }
-        else {
-            // Else traverse till the last node
-            // and insert the new_node there
-            Node last = list.head;
-            while (last.next != null) {
-                last = last.next;
-            }
-
-            // Insert the new_node at last node
-            last.next = new_node;
-        }
-
-        // Return the list by head
-        return list;
-    }
-
-    // Method to print the LinkedList.
-    public static void printList(Main list)
-    {
-        Node currNode = list.head;
-
-        System.out.print("LinkedList: ");
-
-        // Traverse through the LinkedList
-        while (currNode != null) {
-            // Print the data at current node
-            System.out.print(currNode.data + " ");
-
-            // Go to next node
-            currNode = currNode.next;
-        }
-    }
-
-    // Driver code
-    public static void main(String[] args)
-    {
-        /* Start with the empty list. */
-        Main list = new Main();
-
-        //
-        // ******INSERTION******
-        //
-
-        // Insert the values
-        list = insert(list, 1);
-        list = insert(list, 2);
-        list = insert(list, 3);
-        list = insert(list, 4);
-        list = insert(list, 5);
-        list = insert(list, 6);
-        list = insert(list, 7);
-        list = insert(list, 8);
-
-        // Print the LinkedList
-        printList(list);
     }
 }
