@@ -1,36 +1,19 @@
-package DataS;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+import java.util.HashMap;
 
 public class Main {
-    public class rows{
-
-    }
-
     public static void main(String[] args) {
+        HashMap<String, Integer> empIds = new HashMap<>() ;
+        empIds.put("John", 12345) ;
+        empIds.put("Carl", 54321) ;
+        empIds.put("Jerry", 455664455) ;
 
+        System.out.println(empIds) ;
+        System.out.println(empIds.containsValue(12345)) ;
+        empIds.put("John", 3333) ;
+        empIds.replace("Karen", 777) ;
 
-        String[][] array = {{"l", "l", "l","l","l","l","l","l","l"},
-                           {"l", "l", "l","l","l","l","l","l","l"},
-                           {"l", "l", "l","l","l","l","l","l","l"},
-                           {"l", "l", "l","l","l","l","l","l","l"},
-                           {"l", "l", "l","l","l","l","l","l","l"},
-                           {"l", "l", "l","l","l","l","l","l","l"} };
-
-       for(int i = 0; i < array.length; i++){
-
-           System.out.println(" ");
-
-           for(int j = 0; j < array[i].length;  j++) {
-
-
-               System.out.print(array[i][j] + " ");
-
-
-           }
-       }
-
-
+        empIds.putIfAbsent("Steve",222);
+        empIds.remove("Steve");
+        System.out.println(empIds) ;
     }
 }
