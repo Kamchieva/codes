@@ -1,23 +1,35 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-class Node {
-    int data ;
-    Node next ;
-    Node(int data)  {
-        this.data = data ;
-    }
-    int countNodes(Node head) {
- int count = 1;
- Node current = head;
+package org.example;
 
- while(current.next != null) {
-     current = current . next ;
-     count += 1;
+public class Main{
+    public static int binary(int[] numbers, int target){
+        int low = 0;
+        int high = numbers.length -1;
 
- }
-        return count;
+        while(low <= high ){
+            int middlePosition = (low + high)/2;
+            int middleValue = numbers[middlePosition];
+
+      if(target ==  middleValue){
+          return middlePosition;
+      } if(target < middleValue ){
+          high = middlePosition -1;
+            }
+      else{
+          low = middlePosition + 1;
+            }
+        }
+
+     return -1;
     }
-}
+
+
     public static void main(String[] args) {
+        int[] numbers = { 1, 3, 4, 6, 7, 8, 9, 11, 12};
+
+
+
+        System.out.println(binary(numbers,11));
 
     }
+
+}
