@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/Kamchieva/codes/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/Kamchieva/codes/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Kamchieva/codes/tree/master/0206-reverse-linked-list) |
+| [1013-fibonacci-number](https://github.com/Kamchieva/codes/tree/master/1013-fibonacci-number) |
 ## Two Pointers
 |  |
 | ------- |
@@ -25,4 +26,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Kamchieva/codes/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Kamchieva/codes/tree/master/0050-powx-n) |
+| [1013-fibonacci-number](https://github.com/Kamchieva/codes/tree/master/1013-fibonacci-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Kamchieva/codes/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Kamchieva/codes/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
