@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Kamchieva/codes/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0958-sort-array-by-parity-ii](https://github.com/Kamchieva/codes/tree/master/0958-sort-array-by-parity-ii) |
 ## Math
 |  |
 | ------- |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kamchieva/codes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0739-daily-temperatures](https://github.com/Kamchieva/codes/tree/master/0739-daily-temperatures) |
+| [0958-sort-array-by-parity-ii](https://github.com/Kamchieva/codes/tree/master/0958-sort-array-by-parity-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -60,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Kamchieva/codes/tree/master/0155-min-stack) |
+## Sorting
+|  |
+| ------- |
+| [0958-sort-array-by-parity-ii](https://github.com/Kamchieva/codes/tree/master/0958-sort-array-by-parity-ii) |
 <!---LeetCode Topics End-->
