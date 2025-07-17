@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Kamchieva/codes/tree/master/0011-container-with-most-water) |
+| [0128-longest-consecutive-sequence](https://github.com/Kamchieva/codes/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kamchieva/codes/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0283-move-zeroes](https://github.com/Kamchieva/codes/tree/master/0283-move-zeroes) |
 | [0739-daily-temperatures](https://github.com/Kamchieva/codes/tree/master/0739-daily-temperatures) |
@@ -74,4 +75,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Kamchieva/codes/tree/master/0011-container-with-most-water) |
+## Hash Table
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Kamchieva/codes/tree/master/0128-longest-consecutive-sequence) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Kamchieva/codes/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
